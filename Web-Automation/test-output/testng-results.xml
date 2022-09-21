@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-17T22:10:08 IST" name="Default suite" finished-at="2022-09-17T22:11:50 IST" duration-ms="101484">
+    <groups>
+    </groups>
+    <test started-at="2022-09-17T22:10:08 IST" name="Default test" finished-at="2022-09-17T22:11:50 IST" duration-ms="101484">
+      <class name="com.testngpackage.Assign6">
+        <test-method signature="launchbrowser()[pri:1, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:09 IST" name="launchbrowser" finished-at="2022-09-17T22:10:23 IST" duration-ms="14641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="navigate()[pri:2, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:23 IST" name="navigate" finished-at="2022-09-17T22:10:31 IST" duration-ms="7631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:3, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:31 IST" name="login" data-provider="getloginDetails" finished-at="2022-09-17T22:10:37 IST" duration-ms="5844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="minimize()[pri:4, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:37 IST" name="minimize" finished-at="2022-09-17T22:10:42 IST" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimize -->
+        <test-method signature="createCustomer(java.lang.String,java.lang.String)[pri:5, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:42 IST" name="createCustomer" data-provider="getcreateCustomer" finished-at="2022-09-17T22:10:53 IST" duration-ms="11365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[omkar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[He need to learn java early]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method signature="Createproject(java.lang.String,java.lang.String)[pri:6, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:10:53 IST" name="Createproject" data-provider="getCreateproject" finished-at="2022-09-17T22:11:04 IST" duration-ms="10898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java program]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[do hardwork]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createproject -->
+        <test-method signature="Modifyproject(java.lang.String)[pri:7, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:04 IST" name="Modifyproject" data-provider="DoModifyproject" finished-at="2022-09-17T22:11:13 IST" duration-ms="8853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smart work need]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modifyproject -->
+        <test-method signature="deleteproject()[pri:7, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:13 IST" name="deleteproject" finished-at="2022-09-17T22:11:22 IST" duration-ms="8995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteproject -->
+        <test-method signature="Modifycustomer()[pri:8, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:22 IST" name="Modifycustomer" finished-at="2022-09-17T22:11:31 IST" duration-ms="8829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Modifycustomer -->
+        <test-method signature="DeleteCustomer()[pri:9, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:31 IST" name="DeleteCustomer" finished-at="2022-09-17T22:11:43 IST" duration-ms="11883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomer -->
+        <test-method signature="logout()[pri:10, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:43 IST" name="logout" finished-at="2022-09-17T22:11:49 IST" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="close()[pri:11, instance:com.testngpackage.Assign6@4d465b11]" started-at="2022-09-17T22:11:49 IST" name="close" finished-at="2022-09-17T22:11:50 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testngpackage.Assign6 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
